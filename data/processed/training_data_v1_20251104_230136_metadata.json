@@ -1,0 +1,59 @@
+{
+  "generated_at": "20251104_230136",
+  "version": "v1",
+  "scenario_file": "/mnt/c/Users/cutle/OneDrive/Desktop/Code/servo-heart/data/scenarios/test_grid.json",
+  "total_scenarios": 4050,
+  "scenarios_in_csv": 4050,
+  "input_metadata": {
+    "version": "v1",
+    "mode": "conservative",
+    "parameters": {
+      "presses": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "mixes": [
+        "realistic",
+        "varied",
+        "uniform"
+      ],
+      "topologies": [
+        "ring",
+        "all_to_all"
+      ],
+      "max_delays": [
+        3,
+        5,
+        7
+      ],
+      "refractory_pcts": [
+        20,
+        30,
+        40
+      ],
+      "variations": [
+        0.05,
+        0.1,
+        0.15
+      ],
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "duration_sec": 3600
+    },
+    "generated_at": "2025-11-04T22:02:24.421805",
+    "total_scenarios": 4050,
+    "estimated_time_minutes": 13.365,
+    "unique_configurations": 810,
+    "seeds_per_config": 5
+  },
+  "csv_file": "/mnt/c/Users/cutle/OneDrive/Desktop/Code/servo-heart/data/processed/training_data_v1_20251104_230136.csv",
+  "csv_only_mode": true
+}

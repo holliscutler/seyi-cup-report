@@ -1,0 +1,344 @@
+{
+  "by_press_count": {
+    "4": {
+      "n_scenarios": 20,
+      "seeds": [
+        48,
+        51,
+        50,
+        42,
+        43,
+        45,
+        54,
+        46,
+        56,
+        52,
+        55,
+        47,
+        44,
+        57,
+        53,
+        49,
+        58,
+        59,
+        60,
+        61
+      ],
+      "config": {
+        "name": "4p_realistic_all_to_all_s48",
+        "n_presses": 4,
+        "mix": "realistic",
+        "topology": "all_to_all",
+        "duration_sec": 3600.0,
+        "max_delay_sec": 5.0,
+        "variation": 0.1,
+        "seed": 48
+      },
+      "peak_reduction": {
+        "mean_pct": 10.130730693871396,
+        "std_pct": 7.729199224291706,
+        "min_pct": -4.692164821425815,
+        "max_pct": 27.2437113490006,
+        "median_pct": 9.176601673768237,
+        "mean_kw": 76.64160930293343
+      },
+      "baseline_peak": {
+        "mean_kw": 710.2699128012315,
+        "std_kw": 98.88522537471967,
+        "min_kw": 574.0581477281071,
+        "max_kw": 911.1511302993649
+      },
+      "cardiac_peak": {
+        "mean_kw": 633.6283034982981,
+        "std_kw": 67.10115070526092,
+        "min_kw": 506.4048147450922,
+        "max_kw": 744.6830479095682
+      },
+      "win_rate": 95.0,
+      "cost_savings": {
+        "mean_monthly_ntd": 17735.542700119015,
+        "mean_annual_usd": 6865.371367788005,
+        "total_annual_usd": 6865.371367788005
+      },
+      "coordination": {
+        "mean_delays": 180.3,
+        "mean_collisions_avoided": 52.1,
+        "mean_phase_spread": 1.0
+      }
+    },
+    "5": {
+      "n_scenarios": 20,
+      "seeds": [
+        42,
+        43,
+        46,
+        45,
+        50,
+        47,
+        48,
+        49,
+        53,
+        54,
+        55,
+        44,
+        57,
+        59,
+        58,
+        51,
+        52,
+        60,
+        61,
+        56
+      ],
+      "config": {
+        "name": "5p_realistic_all_to_all_s42",
+        "n_presses": 5,
+        "mix": "realistic",
+        "topology": "all_to_all",
+        "duration_sec": 3600.0,
+        "max_delay_sec": 5.0,
+        "variation": 0.1,
+        "seed": 42
+      },
+      "peak_reduction": {
+        "mean_pct": 9.281712009431867,
+        "std_pct": 5.9195304869190934,
+        "min_pct": -0.5381967467941068,
+        "max_pct": 24.123608375177113,
+        "median_pct": 10.408305607235103,
+        "mean_kw": 82.89440414523088
+      },
+      "baseline_peak": {
+        "mean_kw": 849.1501330976895,
+        "std_kw": 103.04726598334862,
+        "min_kw": 659.8511211896888,
+        "max_kw": 1089.895861602217
+      },
+      "cardiac_peak": {
+        "mean_kw": 766.2557289524588,
+        "std_kw": 69.41782583141391,
+        "min_kw": 626.6713190006224,
+        "max_kw": 888.482154416824
+      },
+      "win_rate": 85.0,
+      "cost_savings": {
+        "mean_monthly_ntd": 19234.35331185071,
+        "mean_annual_usd": 7445.556120716405,
+        "total_annual_usd": 7445.556120716405
+      },
+      "coordination": {
+        "mean_delays": 284.9,
+        "mean_collisions_avoided": 55.25,
+        "mean_phase_spread": 1.0
+      }
+    },
+    "6": {
+      "n_scenarios": 20,
+      "seeds": [
+        45,
+        46,
+        47,
+        43,
+        42,
+        44,
+        48,
+        50,
+        51,
+        49,
+        58,
+        54,
+        59,
+        55,
+        56,
+        60,
+        52,
+        61,
+        53,
+        57
+      ],
+      "config": {
+        "name": "6p_realistic_all_to_all_s45",
+        "n_presses": 6,
+        "mix": "realistic",
+        "topology": "all_to_all",
+        "duration_sec": 3600.0,
+        "max_delay_sec": 5.0,
+        "variation": 0.1,
+        "seed": 45
+      },
+      "peak_reduction": {
+        "mean_pct": 6.0193902546519045,
+        "std_pct": 8.301559652972166,
+        "min_pct": -8.378150190740886,
+        "max_pct": 19.05635458841933,
+        "median_pct": 5.494424245476591,
+        "mean_kw": 61.6206392617471
+      },
+      "baseline_peak": {
+        "mean_kw": 966.8831000737404,
+        "std_kw": 91.6833046983536,
+        "min_kw": 756.781106562739,
+        "max_kw": 1142.905913340584
+      },
+      "cardiac_peak": {
+        "mean_kw": 905.2624608119932,
+        "std_kw": 86.47783805665841,
+        "min_kw": 720.0067187310794,
+        "max_kw": 1072.851127719457
+      },
+      "win_rate": 80.0,
+      "cost_savings": {
+        "mean_monthly_ntd": 14398.063312508533,
+        "mean_annual_usd": 5573.44386290653,
+        "total_annual_usd": 5573.44386290653
+      },
+      "coordination": {
+        "mean_delays": 385.2,
+        "mean_collisions_avoided": 50.35,
+        "mean_phase_spread": 1.0
+      }
+    },
+    "7": {
+      "n_scenarios": 20,
+      "seeds": [
+        45,
+        44,
+        43,
+        42,
+        46,
+        49,
+        48,
+        50,
+        47,
+        51,
+        52,
+        53,
+        55,
+        57,
+        58,
+        60,
+        59,
+        54,
+        56,
+        61
+      ],
+      "config": {
+        "name": "7p_realistic_all_to_all_s45",
+        "n_presses": 7,
+        "mix": "realistic",
+        "topology": "all_to_all",
+        "duration_sec": 3600.0,
+        "max_delay_sec": 5.0,
+        "variation": 0.1,
+        "seed": 45
+      },
+      "peak_reduction": {
+        "mean_pct": 4.643617857036548,
+        "std_pct": 9.21685255533852,
+        "min_pct": -10.110061450671418,
+        "max_pct": 16.333281139210744,
+        "median_pct": 9.49910597250765,
+        "mean_kw": 54.05560270965525
+      },
+      "baseline_peak": {
+        "mean_kw": 1078.6803689895953,
+        "std_kw": 97.08996852496779,
+        "min_kw": 923.927667693624,
+        "max_kw": 1241.9012555536412
+      },
+      "cardiac_peak": {
+        "mean_kw": 1024.62476627994,
+        "std_kw": 99.67708029239898,
+        "min_kw": 818.5247116227432,
+        "max_kw": 1240.6661591158772
+      },
+      "win_rate": 60.0,
+      "cost_savings": {
+        "mean_monthly_ntd": 12712.706784147756,
+        "mean_annual_usd": 4921.047787412035,
+        "total_annual_usd": 4921.047787412035
+      },
+      "coordination": {
+        "mean_delays": 483.35,
+        "mean_collisions_avoided": 40.25,
+        "mean_phase_spread": 1.0
+      }
+    },
+    "8": {
+      "n_scenarios": 20,
+      "seeds": [
+        42,
+        43,
+        46,
+        47,
+        44,
+        45,
+        49,
+        50,
+        48,
+        51,
+        52,
+        54,
+        56,
+        53,
+        59,
+        55,
+        57,
+        58,
+        61,
+        60
+      ],
+      "config": {
+        "name": "8p_realistic_all_to_all_s42",
+        "n_presses": 8,
+        "mix": "realistic",
+        "topology": "all_to_all",
+        "duration_sec": 3600.0,
+        "max_delay_sec": 5.0,
+        "variation": 0.1,
+        "seed": 42
+      },
+      "peak_reduction": {
+        "mean_pct": 8.028972351061388,
+        "std_pct": 6.483756815888081,
+        "min_pct": -3.2886379180210756,
+        "max_pct": 18.697951891009655,
+        "median_pct": 8.246036351490359,
+        "mean_kw": 99.15023604167787
+      },
+      "baseline_peak": {
+        "mean_kw": 1210.6424805508482,
+        "std_kw": 128.9583602616566,
+        "min_kw": 984.3758181845938,
+        "max_kw": 1410.5219048340875
+      },
+      "cardiac_peak": {
+        "mean_kw": 1111.4922445091702,
+        "std_kw": 127.20047705805266,
+        "min_kw": 872.6540082802989,
+        "max_kw": 1410.5219048340875
+      },
+      "win_rate": 85.0,
+      "cost_savings": {
+        "mean_monthly_ntd": 23138.44825954728,
+        "mean_annual_usd": 8956.818681115077,
+        "total_annual_usd": 8956.818681115077
+      },
+      "coordination": {
+        "mean_delays": 582.9,
+        "mean_collisions_avoided": 36.8,
+        "mean_phase_spread": 1.0
+      }
+    }
+  },
+  "summary": {
+    "press_counts": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "total_scenarios": 100
+  }
+}

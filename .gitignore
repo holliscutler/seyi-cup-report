@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter (if you create any exploration notebooks later)
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.log
+.cache/
+archive/
+
+# Data files (keep CSVs and summaries, ignore large pickle files)
+data/raw/*.pkl
+data/processed/*.pkl
+
+# Showcase app preloaded data (ignore large pickle file, keep summaries)
+src/heart_sim/showcase/data/*.pkl
+!src/heart_sim/showcase/data/showcase_results_optimized.pkl
+!src/heart_sim/showcase/data/*.csv
+!src/heart_sim/showcase/data/*.json
+
+# Results (ignore detailed run data, keep summaries and figures)
+results/run_*/*.pkl
+!results/figures/
+!results/validation/

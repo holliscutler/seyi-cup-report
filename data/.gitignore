@@ -1,0 +1,18 @@
+# Ignore large raw simulation results
+raw/*.pkl
+raw/*.pickle
+
+# Ignore processed data (can be regenerated)
+# processed/*.csv
+# processed/*.json
+
+# Keep trained models (small enough to commit)
+# models/*.pkl  # Comment out to track models
+
+# Keep scenario definitions (small, important)
+!scenarios/*.json
+!scenarios/*.py
+
+# Keep README files
+!README.md
+!**/*.md

@@ -1,0 +1,14 @@
+{
+  "generated_at": "2025-11-05T21:54:31.878767",
+  "seed": 42,
+  "duration_sec": 3600,
+  "num_scenarios": 15,
+  "total_simulations": 45,
+  "total_runtime_sec": 10.156537532806396,
+  "static_params": {
+    "topology": "ring",
+    "max_delay_sec": 5.0,
+    "refractory_pct": 30,
+    "variation": 0.1
+  }
+}

@@ -1,0 +1,16 @@
+n_presses,mix,topology,max_delay_sec,refractory_pct,variation,predicted_peak_reduction
+4,realistic,all_to_all,7,40,0.1,18.349713618145046
+4,varied,ring,7,30,0.05,18.40954407035661
+4,uniform,all_to_all,5,40,0.1,30.7822554863215
+5,realistic,all_to_all,7,20,0.1,19.805668543073963
+5,varied,ring,7,30,0.1,14.39340784941396
+5,uniform,all_to_all,5,20,0.1,22.667693190308565
+6,realistic,all_to_all,7,30,0.15,16.28466916517369
+6,varied,ring,7,20,0.1,16.081199900760044
+6,uniform,ring,5,20,0.1,24.738587314241748
+7,realistic,all_to_all,7,30,0.15,15.344655813552755
+7,varied,all_to_all,7,40,0.1,11.97077221906738
+7,uniform,ring,5,40,0.15,25.181347883610623
+8,realistic,all_to_all,7,30,0.05,10.61850562556057
+8,varied,ring,7,30,0.1,8.809573522472954
+8,uniform,ring,5,30,0.1,30.176660519099674

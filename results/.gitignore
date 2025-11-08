@@ -1,0 +1,3 @@
+# Ignore all result files (can be very large)
+# Ignore large raw simulation results
+run_20251104_202001/*.pkl

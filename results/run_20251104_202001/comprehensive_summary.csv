@@ -1,0 +1,6 @@
+n_presses,n_seeds,win_rate_pct,mean_peak_reduction_pct,std_peak_reduction_pct,mean_baseline_peak_kw,mean_cardiac_peak_kw,mean_annual_savings_usd,mean_delays,mean_collisions_avoided
+4,20,95.0,10.13,7.73,710.3,633.6,6865,180,52
+5,20,85.0,9.28,5.92,849.2,766.3,7446,285,55
+6,20,80.0,6.02,8.30,966.9,905.3,5573,385,50
+7,20,60.0,4.64,9.22,1078.7,1024.6,4921,483,40
+8,20,85.0,8.03,6.48,1210.6,1111.5,8957,583,37

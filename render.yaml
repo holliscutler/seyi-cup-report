@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: cardiac-ai-showcase
+    runtime: python3
+    plan: free
+    buildCommand: pip install -r requirements-showcase.txt
+    startCommand: gunicorn src.heart_sim.showcase.app:server
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
